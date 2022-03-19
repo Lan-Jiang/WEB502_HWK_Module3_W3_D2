@@ -6,6 +6,7 @@
     font-size: 1.2rem;
 }
 
+//Nested with paragraph
 .container {
     background-color: $color-primary;
     border: 1px solid #000;
@@ -15,6 +16,15 @@
     margin: 0 auto;
     padding: 1em;
     width: 50%;
+
+    p {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
 
     .left {
         background-color: $color-bg-left;
